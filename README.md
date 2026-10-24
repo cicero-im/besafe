@@ -29,6 +29,14 @@ besafe install
 - Has default exceptions like .env.example and gitignored files
 - Only 1 dependency
 
+### Test and Coverage
+
+Run tests with a 60% line-coverage gate:
+
+```sh
+./scripts/coverage.sh
+```
+
 ### OSes tested
 
 - Windows
